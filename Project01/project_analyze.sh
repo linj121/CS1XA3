@@ -13,7 +13,7 @@ do
         list=$( git ls-files )
         for file in $list
         do
-            while read line
+            while IFS= read line
             do
                echo "$line #TODO" >> ~/CS1XA3/Project01/todo.log
             done < $file
