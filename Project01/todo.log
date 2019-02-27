@@ -1,0 +1,9 @@
+/home/linj121/CS1XA3/Project01/project_analyze.sh:13:        grep -nr "#TODO" ~/CS1XA3  --exclude=todo.log > ~/CS1XA3/Project01/todo.log
+/home/linj121/CS1XA3/Project01/project_analyze.sh.save:18:               echo "$line #TODO" >> ~/CS1XA3/Project01/todo.log
+/home/linj121/CS1XA3/Project01/test.sh:1:first blood #TODO
+/home/linj121/CS1XA3/Project01/test.sh:2:double kill #TODO
+/home/linj121/CS1XA3/Project01/test.sh:3:triple kill #TODO
+/home/linj121/CS1XA3/Project01/test.sh:4:quadra kill #TODO
+/home/linj121/CS1XA3/Project01/test.sh:5:penta kill #TODO
+/home/linj121/CS1XA3/Project01/test.sh:6:hexa kill #TODO
+/home/linj121/CS1XA3/Project01/README.md:8:program goes through each line and output the line with #TODO at the end.The output 
