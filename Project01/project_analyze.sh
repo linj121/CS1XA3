@@ -10,7 +10,6 @@ while [ $f != "Exit" ]
 do
     if [ $f = "TODOlog" ];then
         [ -e todo.log ] && rm todo.log
-	cat ~/CS1XA3/Project01/todo.log | echo
     elif [ $f = "DELtemp" ];then
 	untrack=$( git ls-files . exclude-standard others )
 	for file in $untrack
