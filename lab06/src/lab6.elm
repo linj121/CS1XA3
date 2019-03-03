@@ -33,6 +33,6 @@ view : Model -> Html Msg
 view model = 
         div [] 
                 [ input [ type_ "text", value model.first, onInput First ] [] 
-                , input [ type_ "text", value model.first, onInput First ] []
+                , input [ type_ "text", value model.first, onInput Second ] []
                 , div [] [ text (model.first), text ":", text (model.second) ]
                 ]

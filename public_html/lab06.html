@@ -4342,6 +4342,9 @@ var author$project$Main$update = F2(
 var author$project$Main$First = function (a) {
 	return {$: 'First', a: a};
 };
+var author$project$Main$Second = function (a) {
+	return {$: 'Second', a: a};
+};
 var elm$core$Basics$identity = function (x) {
 	return x;
 };
@@ -4959,7 +4962,7 @@ var author$project$Main$view = function (model) {
 					[
 						elm$html$Html$Attributes$type_('text'),
 						elm$html$Html$Attributes$value(model.first),
-						elm$html$Html$Events$onInput(author$project$Main$First)
+						elm$html$Html$Events$onInput(author$project$Main$Second)
 					]),
 				_List_Nil),
 				A2(
