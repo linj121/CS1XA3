@@ -1,54 +1,277 @@
-<!-- FONTS -->
-<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+<!DOCTYPE html>
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic|Open+Sans:300,400,500,700|Waiting+for+the+Sunrise|Shadows+Into+Light' rel='stylesheet' type='text/css'>
+<style>
+  *, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
 
-<!-- PAGE STUFF -->
-<div class="rela-block page">
-    <div class="rela-block top-bar">
-        <div class="caps name"><div class="abs-center">Joshua Lin</div></div>
+html
+{
+	font-size:100%;
+}
+
+body
+{
+	-webkit-font-smoothing:antialiased;
+	color:#333332;
+	font-family:Lora, serif;
+	font-size:18px;
+	font-weight:400;
+	line-height:1.4;
+	text-rendering:optimizeLegibility;
+}
+
+.skill-set li:hover
+{
+	background:#3498db;
+}
+
+h1
+{
+	color:rgba(0,0,0,.75);
+}
+
+.wrapper
+{
+	height:100%;
+}
+
+.left
+{
+	background-color:rgba(0,0,0,.025);
+	border-right:1px solid rgba(0,0,0,.05);
+	float:right;
+	height:100%;
+	margin-left:-1px;
+	min-width:256px;
+	position:fixed;
+	width:33.33%;
+  
+}
+
+.right
+{
+	float:right;
+	height:100%;
+	position:relative;
+	width:66.66%;
+}
+
+
+.name-hero
+{
+	background:rgba(0,0,0,.001);
+	bottom:0;
+	height:290px;
+	left:0;
+	margin:auto;
+	position:absolute;
+	right:0;
+	top:0;
+	width:85%;
+}
+
+.me-img
+{
+	background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/36334/profile/profile-512_4.jpg) no-repeat center center ;
+	background-size:100%;
+  background-position:0px;
+	border-radius:100%;
+	height:150px;
+	margin:0 auto;
+	position:relative;
+	width:150px;
+}
+
+.name-hero h1
+{
+	font-family:Open Sans, sans-serif;
+	font-size:1.5em;
+	text-align:center;
+}
+
+.name-hero h1 em
+{
+	color:rgba(0,0,0,.3);
+	font-style:normal;
+	font-weight:700;
+}
+
+.name-hero p
+{
+	color:rgba(0,0,0,.5);
+	font-size:.75em;
+	line-height:1.5;
+	margin:0 8px 0 0;
+	text-align:center;
+}
+
+.name-hero .name-text
+{
+	margin:0 auto;
+	width:85%;
+}
+
+.inner
+{
+	margin:0 auto;
+	max-width:975px;
+	padding:3em;
+}
+
+.inner h1
+{
+	font-size:1.75em;
+}
+
+.inner p
+{
+	color:rgba(0,0,0,.3);
+}
+
+.inner p em
+{
+	color:rgba(0,0,0,.75);
+	font-style:normal;
+}
+
+.inner section
+{
+	margin:100px auto;
+}
+
+ul
+{
+	list-style-type:none;
+	margin-top:-10px;
+	max-width:570px;
+	padding:0;
+}
+
+.skill-set li
+{
+	background:rgba(0,0,0,.75);
+	border-radius:5px;
+	color:#FFF;
+	display:inline-block;
+	list-style:none;
+	margin:15px 15px 0 0;
+	padding:10px;
+	text-align:justify;
+}
+
+@media screen and (max-width: 48em) {
+	.right,.left
+	{
+		float:none;
+    position:relative !important;
+		width:100%;
+    min-height:500px;
+	}
+  .handmade {
+  text-align:center !important;
+  margin-top:0px !important;
+}
+
+@media screen and (max-width: 75em) {
+    body
+{ font-size:16px;}
+}
+
+@media screen and (max-width: 60em) {
+    body
+{ font-size:14px;}
+}
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+.handmade {
+  text-align:right;
+  margin-top:100px;
+}
+.handmade em {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.25em;
+  margin-left:5px;
+}
+</style>
+</head>
+<body>
+<div class="wrapper clearfix">
+  <div class="left">
+    
+    <div class="name-hero">
+      
+      <div class="me-img"></div>
+      
+      <div class="name-text">
+        
+        <h1>Joshua  <em>Lin</em></h1>
+        <p>ljx861246174@gmail.com</p> 
+        <p>(647) 400-0224</p>
+     
+      </div>
+   
     </div>
-    <div class="side-bar">
-        <div class="mugshot">
-            <div class="logo">
-                <svg viewbox="0 0 80 80" class="rela-block logo-svg">
-                    <path d="M 10 10 L 52 10 L 72 30 L 72 70 L 30 70 L 10 50 Z" stroke-width="2.5" fill="none"/>
-                </svg>
-                <p class="logo-text">jl</p>
-            </div>
+    
+  </div>
+  <div class="right">
+    
+    <div class="inner">
+      <section>
+        <h1>Employment</h1>
+        <p>N/A</p>
+        <br>
+        <br>
+        <br>
+      </section>
+      <section>
+        <h1>Technical Skills</h1>
+        <ul class="skill-set">
+          <li>Linux</li>
+          <li>Haskell</li>
+          <li>Python</li>
+          <li>Java</li>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>Javascript</li>
+        </ul>
+      </section>
+      <section>
+        <h1>References</h1>
+        <p>N/A</p>
+        <br>
+        <br>
+        <br>
+      </section>
+      <section>
+        <h1>Personal Interests</h1>
+        <ul class="skill-set">
+          <li>Gaming</li>
+          <li>Workout</li>
+          <li>Music</li>
+          <li>Drawing</li>
+          <li>Cooking</li>
+          <li>Movies</li>
+        </ul>
+      </section>
+      <section>
+        <div class="handmade">
+          <p>handmade by <em> Joshua Lin</em></p>
         </div>
-        <p>1-647-400-0224</p>
-        <p>ljx861246174@gmail.com</p><br>
-        <p class="rela-block social twitter">Twitter @Joshua09558161</p>
-        <p class="rela-block caps side-header">Expertise</p>
-        <p class="rela-block list-thing">HTML</p>
-        <p class="rela-block list-thing">Linux</p>
-        <p class="rela-block list-thing">Python</p>
-        <p class="rela-block list-thing">Haskell</p>
-        <p class="rela-block caps side-header">Education</p>
-        <p class="rela-block list-thing">Discrete Mathematics</p>
-        <p class="rela-block list-thing">Computational Thingking and Concepts</p>
-        <p class="rela-block list-thing">Web Development</p>
+      </section>
     </div>
-    <div class="rela-block content-container">
-        <h2 class="rela-block caps title">Computer Science Student</h2>
-        <div class="rela-block separator"></div>
-        <div class="rela-block caps greyed">Profile</div>
-        <p class="long-margin">An international student who studys computer science at Mcmaster University.</p>
-        <div class="rela-block caps greyed">Experience</div>
-
-        <h3>Job #1</h3>
-        <p class="light">First job description</p>
-        <p class="justified">To be continued...</p>
-        
-        
-        <h3>Job #2</h3>
-        <p class="light">Second Job Description</p>
-        <p class="justified">To be continued ...</p>
-        
-        
-        <h3>Job #3</h3>
-        <p class="light">Third Job Description</p>
-        <p class="justified">To be continued...</p>
-    </div>
+    
+  </div>
+  
+  
+  
 </div>
+</body>
+</html>
